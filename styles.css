@@ -1,0 +1,194 @@
+body {
+    font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont,
+  'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 10%;
+}
+
+.header .left {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px;
+}
+
+.header .right {
+    display: flex;
+    gap: 15px;
+}
+
+.header .right a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+    margin: 10px 0px;
+}
+
+.first-section {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    gap: 21px;
+    padding: 5% 10%;
+}
+
+.first-section .left-box {
+    max-width: 450px;
+    min-width: auto;
+}
+
+.first-section .left-top {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.first-section .left-middle {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first-section .left-bottom a {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.first-section .right-box {
+    color: #f9faf8;
+    font-size: 18px;
+    background-color: grey;
+    padding: 100px 80px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.second-section {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 17.5%;
+}
+
+.second-section .top {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+.second-section .bottom {
+    display: flex;
+    font-size: 18px;
+    color: #9d9e9e;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.second-section .container-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.second-section .box {
+    width: 160px;
+    height: 160px;
+    border: solid 4px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.third-section {
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    padding: 10% 17.5%;
+}
+
+.third-section .quote {
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 5px;
+    max-width: fit-content;
+    min-height: min-content;
+}
+
+.third-section .author {
+    text-align: end;
+    font-weight: bold;
+}
+
+.fourth-section {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 0%;
+}
+
+.fourth-section .cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    gap: 100px;
+    padding: 3% 8%;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+}
+
+/* .fourth-section .cta-box {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+} */
+
+.fourth-section .cta1,
+.fourth-section .cta2 {
+    white-space: nowrap;
+}
+
+.fourth-section a {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    border: solid white;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    white-space: nowrap;
+}
