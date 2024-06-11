@@ -192,3 +192,13 @@ p {
     border-radius: 10px;
     white-space: nowrap;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 78, 78);
+    padding: 2% 0%;
+    color: white;
+    font-size: 14px;
+}
